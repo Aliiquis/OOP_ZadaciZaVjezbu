@@ -23,7 +23,7 @@ public class Util {
         knjige[5] = new Knjiga("Maria Gripe", "Zujak leti u sumrak", "6", 4);
         knjige[6] = new Knjiga("Douglas Adams", "Vodič kroz galaksiju za autostopere", "7", 2);
         knjige[7] = new Knjiga("Joseph Heller", "Kvaka 22", "7", 2);
-        knjige[8] = new Knjiga("Terry Pratchett", "The colour of magic", "8", 1);
+        knjige[8] = new Knjiga("Terry Pratchett", "The colour of magic", "8", 0);
         knjige[9] = new Knjiga("Grigor Vitez", "Ogledalce", "9", 50);
         return knjige;
     }

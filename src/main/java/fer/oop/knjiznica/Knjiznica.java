@@ -29,8 +29,10 @@ public class Knjiznica {
                     sc.nextLine();
                     System.out.print("Upisite OIB: ");
                     String OIB = sc.nextLine();
+                    boolean pronaden = false;
                     for (Ucenik ucenik : ucenici) {
                         if (OIB.equals(ucenik.getOIB())) {
+                            pronaden = true;
                             System.out.print("Broj knjiga: ");
                             int brKnjiga = sc.nextInt();
                             while (brKnjiga > ucenik.getMaxPosudba()) {
@@ -41,22 +43,32 @@ public class Knjiznica {
                             sc.nextLine();
                             Knjiga[] posudeneKnjige = new Knjiga[brKnjiga];
                             String ISBN;
+                            int indx = 0;
                             for (int i = 0; i < brKnjiga; i++) {
+                                boolean pronadenaKnjiga = false;
                                 System.out.print("ISBN " + (i + 1) + ". knjige: ");
                                 ISBN = sc.nextLine();
                                 for (Knjiga knjiga : knjige) {
                                     if (knjiga.getISBN().equals(ISBN)) {
+                                        pronadenaKnjiga = true;
                                         if (knjiga.getBrojPrimjeraka() <= 0) {
                                             System.out.println("Svi primjerci knjige s tim ISBN-om su posudjeni!");
                                             i--;
                                         } else {
-                                            posudeneKnjige[i] = knjiga;
+                                            posudeneKnjige[indx++] = knjiga;
                                         }
                                     }
+                                }
+                                if (!pronadenaKnjiga) {
+                                    System.out.println("Nema knjige s unesenim ISBN-om.");
+                                    i--;
                                 }
                             }
                             posudbe.add(new Posudba(ucenik, posudeneKnjige, LocalDate.now(), true));
                         }
+                    }
+                    if (!pronaden) {
+                        System.out.println("Ne postoji ucenik sa tim OIB-om.");
                     }
                 }
                 case 2 -> {
@@ -69,8 +81,10 @@ public class Knjiznica {
                         for (Ucenik ucenik : ucenici) {
                             if (OIB.equals(ucenik.getOIB())) {
                                 pronaden = true;
+                                boolean pronadenaPosudba = false;
                                 for (Posudba posudba : posudbe) {
                                     if (posudba.getUcenik().getOIB().equals(OIB)) {
+                                        pronadenaPosudba = true;
                                         if (posudba.isAktivna()) {
                                             posudba.setAktivna(false);
                                             vraceno = true;
@@ -79,6 +93,9 @@ public class Knjiznica {
                                             System.out.println("Ne postoji aktivna posudba za ovog ucenika.");
                                         }
                                     }
+                                }
+                                if (!pronadenaPosudba) {
+                                    System.out.println("Ne postoji posudba za ovog ucenika.");
                                 }
                             }
                         }
