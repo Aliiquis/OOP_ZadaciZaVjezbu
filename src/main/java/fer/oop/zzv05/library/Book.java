@@ -1,0 +1,28 @@
+package fer.oop.zzv05.library;
+
+public class Book extends LibraryItem {
+    private String author;
+
+    public Book(int id, String name, String author) {
+        super(id, name);
+        this.author = author;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    @Override
+    public int getLoanPeriod() {
+        return 14;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + ' ' + author;
+    }
+}
