@@ -14,14 +14,6 @@ public class Node {
         return value;
     }
 
-    public Node getParent() {
-        return parent;
-    }
-
-    public void setParent(Node parent) {
-        this.parent = parent;
-    }
-
     public Node getLeft() {
         return left;
     }
