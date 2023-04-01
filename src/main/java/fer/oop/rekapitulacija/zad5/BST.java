@@ -42,20 +42,21 @@ public class BST {
         }
     }
 
-    static void print2DUtil(Node root, int space) {
+    static void printNode(Node root, int space) {
         if (root == null) {
             return;
         }
         space += 10;
-        print2DUtil(root.getRight(), space);
-        System.out.print("\n");
-        for (int i = 10; i < space; i++)
+        printNode(root.getRight(), space);
+        System.out.println();
+        for (int i = 10; i < space; i++) {
             System.out.print(" ");
-        System.out.print(root.getValue() + "\n");
-        print2DUtil(root.getLeft(), space);
+        }
+        System.out.println(root.getValue());
+        printNode(root.getLeft(), space);
     }
 
     public void print() {
-        print2DUtil(root, 0);
+        printNode(root, 0);
     }
 }

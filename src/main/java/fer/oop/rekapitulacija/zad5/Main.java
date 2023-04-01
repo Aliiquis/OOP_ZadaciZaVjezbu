@@ -13,10 +13,8 @@ public class Main {
             Integer n = sc.nextInt();
             if (!arr.contains(n)) {
                 arr.add(n);
+                bst.add(n);
             }
-        }
-        for (Integer integer : arr) {
-            bst.add(integer);
         }
         //note: stablo će ispisati položeno na bok
         bst.print();
