@@ -30,6 +30,7 @@ public class PointsUtil {
                 if (line == null) break;
                 int points = Integer.parseInt(line.substring(0, 2).trim());
                 String country = line.substring(3);
+                //If the value at the specified key is missing fill it with points, otherwise add the new points to the existing sum.
                 map.compute(country, (k, v) -> v == null ? points : v + points);
             }
         }

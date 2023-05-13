@@ -6,6 +6,7 @@ import java.util.Map;
 
 public class StandingsUtil {
     public static List<Pair<String, Integer>> orderByPoints(Map<String, Integer> map) {
+        if (map == null) return null;
         List<Pair<String, Integer>> orderedPointsList = new LinkedList<>();
         for (String country : map.keySet()) {
             if (orderedPointsList.size() == 0) orderedPointsList.add(new Pair<>(country, map.get(country)));

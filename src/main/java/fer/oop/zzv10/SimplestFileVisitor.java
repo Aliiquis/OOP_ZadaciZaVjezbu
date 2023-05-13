@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class SimplestFileVisitor extends SimpleFileVisitor<Path> {
-    private Map<String, Integer> map = new TreeMap<>();
+    private final Map<String, Integer> map = new TreeMap<>();
 
     @Override
     public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {

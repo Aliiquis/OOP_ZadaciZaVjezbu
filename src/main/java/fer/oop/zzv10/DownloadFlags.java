@@ -20,20 +20,24 @@ public class DownloadFlags {
                 Path downloadDir = Path.of(String.format("%s/flags", path));
                 Files.createDirectories(downloadDir);
                 Map<String, Integer> standings = PointsUtil.getForYear(Integer.parseInt(path.toString().substring(path.toString().length() - 4)));
-                for (String country : standings.keySet()) {
-                    URL url = new URL(String.format("https://cdn.countryflags.com/thumbs/%s/flag-400.png", country.replace(' ', '-').toLowerCase()));
-                    try (BufferedInputStream bufferedInputStream = new BufferedInputStream(url.openStream())) {
-                        try (BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(String.format("%s/%s.png", downloadDir, country)))) {
-                            byte[] buffer = new byte[1024];
-                            int read;
-                            while ((read = bufferedInputStream.read(buffer, 0, 1024)) != -1) {
-                                bufferedOutputStream.write(buffer, 0, read);
-                            }
-                        }
+                if (standings != null) getFlags(downloadDir, standings);
+            }
+        }
+        directoryStream.close();
+    }
+
+    private static void getFlags(Path downloadDir, Map<String, Integer> standings) throws IOException {
+        for (String country : standings.keySet()) {
+            URL url = new URL(String.format("https://cdn.countryflags.com/thumbs/%s/flag-400.png", country.replace(' ', '-').toLowerCase()));
+            try (BufferedInputStream bufferedInputStream = new BufferedInputStream(url.openStream())) {
+                try (BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(String.format("%s/%s.png", downloadDir, country)))) {
+                    byte[] buffer = new byte[1024];
+                    int read;
+                    while ((read = bufferedInputStream.read(buffer, 0, 1024)) != -1) {
+                        bufferedOutputStream.write(buffer, 0, read);
                     }
                 }
             }
         }
-        directoryStream.close();
     }
 }
