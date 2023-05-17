@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 public class ImmutableContainerLocal implements Iterable<Integer> {
-    private Integer[] numbers;
+    private final Integer[] numbers;
 
     public ImmutableContainerLocal(Integer... num) {
         numbers = new Integer[num.length];

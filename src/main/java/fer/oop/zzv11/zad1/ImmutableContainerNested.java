@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 public class ImmutableContainerNested implements Iterable<Integer> {
-    private Integer[] numbers;
+    private final Integer[] numbers;
 
     public ImmutableContainerNested(Integer... num) {
         numbers = new Integer[num.length];
@@ -19,7 +19,7 @@ public class ImmutableContainerNested implements Iterable<Integer> {
 
     static class CustomIterator implements Iterator<Integer> {
         private int index;
-        private ImmutableContainerNested container;
+        private final ImmutableContainerNested container;
 
         public CustomIterator(ImmutableContainerNested container) {
             this.index = container.numbers.length - 1;

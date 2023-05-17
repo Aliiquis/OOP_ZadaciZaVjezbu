@@ -6,11 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Person {
-    private int id;
-    private String name;
-    private String surname;
-    private LocalDate birthday;
-    private Gender gender;
+    private final int id;
+    private final String name;
+    private final String surname;
+    private final LocalDate birthday;
+    private final Gender gender;
 
     public Person(int id, String name, String surname, LocalDate birthday, Gender gender) {
         this.id = id;
