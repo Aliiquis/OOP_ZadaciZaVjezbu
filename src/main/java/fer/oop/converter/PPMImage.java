@@ -17,7 +17,8 @@ public class PPMImage {
     }
 
     public void resize() {
-
+        width /= 2;
+        height /= 2;
     }
 
     public void saveToAsciiFile(Path destination) {
