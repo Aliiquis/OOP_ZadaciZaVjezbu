@@ -9,7 +9,8 @@ import java.util.TreeSet;
 public class PythagoreanTriangles implements Iterable<Ntuple<Integer>> {
     private final Set<Ntuple<Integer>> triplets;
 
-    public PythagoreanTriangles(int a, int b) throws IllegalArgumentException {
+    public PythagoreanTriangles(int a, int b) {
+        if (a < 1 || b < 1) throw new IllegalArgumentException("Invalid bounds.");
         this.triplets = new TreeSet<>();
         for (int x = 1; x < a; x++) {
             for (int y = x + 1; y < b; y++) {

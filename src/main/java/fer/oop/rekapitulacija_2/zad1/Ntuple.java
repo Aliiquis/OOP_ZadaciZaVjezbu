@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Ntuple<T extends Comparable<T>> implements Comparable<Ntuple<T>> {
     private final T[] elements;
 
+    @SafeVarargs
     public Ntuple(T... elements) {
         this.elements = elements;
     }

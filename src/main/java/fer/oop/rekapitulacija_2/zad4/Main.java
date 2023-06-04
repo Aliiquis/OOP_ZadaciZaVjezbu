@@ -29,7 +29,7 @@ public class Main {
             else if (x > 0 && y < 0) quadrant = 4;
 
             if (quadrant > 0) {
-                map.computeIfAbsent(quadrant, k -> new TreeSet<>(Comparator.comparing(d::apply)));
+                map.computeIfAbsent(quadrant, k -> new TreeSet<>(Comparator.comparing(d)));
                 Set<Point> set = map.get(quadrant);
                 set.add(p);
                 map.put(quadrant, set);
