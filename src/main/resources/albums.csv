@@ -1,0 +1,726 @@
+album_id;title;publish_year;artist_id
+1;"Dangerously In Love";2003;1
+2;"The Game";1980;2
+3;"Good Girl Gone Bad";2007;3
+4;"The Bodyguard";1992;4
+5;"The Works";1984;2
+6;"The E.N.D.";2009;5
+7;"Speakerboxxx/The Love Below";2003;6
+8;"Supernatural";1999;7
+9;"We Sing. We Dance. We Steal Things.";2008;8
+10;"Uptown Special";2014;9
+11;"21";2011;10
+12;"A Night at the Opera";1975;2
+13;"Escape";1981;11
+14;"Appetite for Destruction";1987;12
+15;"Love in the Future";2013;13
+16;"1000 Forms of Fear";2014;14
+17;"True";2013;15
+18;"÷";2017;16
+19;"Vida";2018;17
+20;"A Rush of Blood to the Head";2002;18
+21;"Hotel California";1976;19
+22;"Led Zeppelin IV";1971;20
+23;"Slippery When Wet";1986;21
+24;"Thriller";1982;22
+25;"Purple Rain";1984;23
+26;"x";2014;16
+27;"Talk That Talk";2011;3
+28;"Jazz";1978;2
+29;"Hunting High and Low";1985;24
+30;"Blue Hawaii";1961;25
+31;"Various Artists";1994;26
+32;"Viva La Vida or Death and All His Friends";2008;18
+33;"Love Tracks";1978;27
+34;"Space Jam";1996;28
+35;"Until Now";2012;29
+36;"Kats on the Katscratch";1983;30
+37;"In the Zone";2003;31
+38;"Ghost Stories";2014;18
+39;"More of the Monkees";1967;32
+40;"I Love Rock 'n' Roll";1981;33
+41;"Saturday Night Fever";1977;34
+42;"Trolls";2016;35
+43;"News of the World";1977;2
+44;"Eye of the Tiger";1982;36
+45;"G I R L";2014;37
+46;"Frozen";2013;38
+47;"An Innocent Man";1983;39
+48;"Spice";1996;40
+49;"Armageddon: The Album";1998;41
+50;"Greatest Hits";1982;42
+51;"Automatic";2020;43
+52;"I'm A Mess";2018;44
+53;"Giants";2019;45
+54;"This Is America";2018;46
+55;"A Thousand Years";2011;47
+56;"Sucker";2019;48
+57;"Old Town Road";2019;49
+58;"Senorita";2019;50
+59;"Señorita";2019;51
+60;"Scorpion";2018;52
+61;"Sugar";2015;53
+62;"8 Mile";2002;54
+63;"Uptown Funk";2014;55
+64;"Havana";2017;56
+65;"Scary Hours";2018;52
+66;"1989";2014;57
+67;"Red Pill Blues";2017;58
+68;"Collage";2016;59
+69;"Bundle of Tantrums";2018;61
+70;"Purpose";2015;62
+71;"Bangerz";2013;63
+72;"Views";2015;52
+73;"All the Little Lights";2012;65
+74;"Kiss";2012;66
+75;"24K Magic";2016;67
+76;"Evolve";2017;68
+77;"Magic!";2014;69
+78;"Jolene";1974;70
+79;"Unapologetic";2012;71
+80;"DAMN.";2017;72
+81;"Sorry for Party Rocking";2011;74
+82;"Anti";2016;75
+83;"All Night";2017;76
+84;"Sweetener";2018;77
+85;"Witness";2017;68
+86;"The Last Of Us";2013;78
+87;"A Walk";2018;53
+88;"Ain't No Sunshine";1971;79
+89;"All of Me";2013;13
+90;"American Boy";2008;80
+91;"Baby";2010;62
+92;"Bad Guy";2019;81
+93;"Beautiful";2003;82
+94;"Believer";2017;68
+95;"Bohemian Rhapsody";1975;2
+96;"Can't Feel My Face";2015;83
+97;"Chandelier";2014;14
+98;"Clocks";2002;18
+99;"Crazy in Love";2003;1
+100;"Despacito";2017;17
+101;"Don't Stop Believin'";1981;11
+102;"Dreams";1977;84
+103;"Finesse";2018;9
+104;"Get Lucky";2013;85
+105;"Halo";2008;1
+106;"Hey Ya!";2003;6
+107;"Humble";2017;72
+108;"I Will Always Love You";1974;4
+109;"Ignition";2002;28
+110;"Hybrid Theory";2000;86
+111;"Hot Fuss";2004;87
+112;"The Fame";2008;88
+113;"Rather Be";2014;89
+114;"Nevermind";1991;90
+115;"Stay";2017;3
+116;"In the Lonely Hour";2014;91
+117;"V";2015;53
+118;"Talking Book";1972;92
+119;"Unorthodox Jukebox";2012;9
+120;"Without Me";2002;54
+121;"Parachutes";2000;18
+122;"Back to Bedlam";2004;93
+123;"The Standard";1936;94
+124;"Fushigi no Kuni no Naka de 2";2000;95
+125;"Love Songs";2005;1
+126;"B'Day";2006;1
+127;"I Am... Sasha Fierce";2008;1
+128;"The Very Best Of Peggy Lee";1995;96
+129;"Giant Steps";1960;97
+130;"Lovin' You";1995;99
+131;"Prince";1979;23
+132;"The Breaks";1980;100
+133;"The Glamorous Life";1984;101
+134;"Candy";1983;102
+135;"Fame";1980;103
+136;"Rufusized";1974;104
+137;"Diana";1980;105
+138;"Off the Wall";1979;22
+139;"McFadden & Whitehead";1979;106
+140;"Lipps Inc.";1979;107
+141;"Commodores";1977;108
+142;"Let's Stay Together";1971;109
+143;"Car Wash";1976;110
+144;"Let's Get It On";1973;111
+145;"Street Songs";1981;112
+146;"I Never Loved a Man the Way I Love You";1967;113
+147;"KC and the Sunshine Band";1975;114
+148;"I'm Gonna Love You Just a Little More Baby";1973;115
+149;"Songs in the Key of Life";1976;92
+150;"What'd I Say";1959;116
+151;"Ain't Too Proud to Beg";1966;117
+152;"I Got You (I Feel Good)";1965;118
+153;"Innervisions";1973;92
+154;"Uptight (Everything's Alright)";1965;92
+155;"Bad";1987;22
+156;"A Change Is Gonna Come";1964;119
+157;"My Girl";1965;117
+158;"I Heard It Through the Grapevine";1968;111
+159;"Midnight Love";1982;111
+160;"What's Going On";1971;111
+161;"Papa's Got a Brand New Bag";1965;118
+162;"Stand By Me";1961;120
+163;"Aretha Now";1968;113
+164;"Ain't No Mountain High Enough";1967;111
+165;"I'll Take You There";1972;121
+166;"I Got the Feelin'";1968;118
+167;"Sittin' on the Dock of the Bay";1968;122
+168;"Still Bill";1972;79
+169;"My Cherie Amour";1969;92
+170;"The Big Gundown";1986;123
+171;"London Calling";1979;124
+172;"Unknown Pleasures";1979;125
+173;"The Clash";1977;124
+174;"Pet Sounds";1966;126
+175;"Talking Heads: 77";1977;127
+176;"Combat Rock";1982;124
+177;"The Mamas & The Papas";1965;128
+178;"Outlandos d'Amour";1978;129
+179;"Violator";1990;130
+180;"Heroes";1977;131
+181;"Lust for Life";1977;132
+182;"Walking on Sunshine";1985;133
+183;"The Power of Love";1985;134
+184;"Billy Idol";1982;135
+185;"Rumours";1977;84
+186;"The Message";1982;136
+187;"Synchronicity";1983;129
+188;"Toys in the Attic";1975;41
+189;"She's So Unusual";1983;137
+190;"Just Because I'm a Woman";1968;138
+191;"L.A. Woman";1971;139
+192;"Are You Experienced?";1967;140
+193;"Cosmic Thing";1989;141
+194;"Tango in the Night";1987;84
+195;"In the Ghetto";1969;25
+196;"Just As I Am";1971;79
+197;"Jailbreak";1976;142
+198;"Ace of Spades";1980;143
+199;"Born to Run";1975;144
+200;"Piano Man";1973;39
+201;"Let's Dance";1983;131
+202;"Rebel Yell";1983;135
+203;"Rock Around the Clock";1955;145
+204;"Night Visions";2012;68
+205;"Smoke + Mirrors";2015;68
+206;"Long Distance Voyager";1981;146
+207;"Strength in Numbers";1986;146
+208;"Special Forces";1982;146
+209;"Tour de Force";1983;146
+210;"WildEyed Southern Boys";1981;146
+211;"Rockin' Into the Night";1985;146
+212;"Drivetrain";1982;146
+213;"Bone Against Steel";1983;146
+214;"A Head Full of Dreams";2015;18
+215;"Kaleidoscope EP";2017;18
+216;"Second Chance";1986;42
+217;"Viva La Vida";2008;18
+218;"Let It Bleed";1969;147
+219;"Beggars Banquet";1968;147
+220;"Back to Black";2006;148
+221;"Hey Jude";1968;149
+222;"Whitney";1987;4
+223;"No Diggity";1996;151
+224;"Millennium";1999;152
+225;"Make It Big";1984;153
+226;"No Boundaries";1999;154
+227;"Beauty Behind the Madness";2015;83
+228;"Plans";2005;155
+229;"The Miseducation of Lauryn Hill";1998;156
+230;"I'm Your Baby Tonight";1990;4
+231;"Kats on the Coast";1983;133
+232;"One of the Boys";2008;157
+233;"Ricky Martin";1999;158
+234;"Tragic Kingdom";1995;159
+235;"The Best Of";1999;160
+236;"The Beyoncé Experience Live";2007;1
+237;"4";2011;1
+238;"Live at Roseland: Elements of 4";2011;1
+239;"Lemonade";2016;1
+240;"Crazy Crazy Nights";1987;162
+241;"Rock and Roll Over";1976;162
+242;"Animalize";1984;162
+243;"Dressed to Kill";1975;162
+244;"Lick It Up";1983;162
+245;"Destroyer";1976;162
+246;"Love Gun";1977;162
+247;"Dynasty";1979;162
+248;"Hot in the Shade";1989;162
+249;"Revenge";1992;162
+250;"Psycho Circus";1998;162
+251;"Creatures of the Night";1982;162
+252;"Hotter Than Hell";1974;162
+253;"Alive II";1977;162
+254;"Asylum";1985;162
+255;"Alive!";1975;162
+256;"Unmasked";1980;162
+257;"Meteora";2003;86
+258;"Live in Texas";2003;86
+259;"Minutes To Midnight";2007;86
+260;"Road To Revolution";2008;86
+261;"Transformers: Revenge of the Fallen";2009;86
+262;"A Thousand Suns";2010;86
+263;"The Best Rock Album in the World...Ever!";1996;163
+264;"The Best Rap Album in the World...Ever!";1996;165
+265;"The Best Pop Album in the World...Ever!";2003;6
+266;"The Best Latin Album in the World...Ever!";1999;175
+267;"Fifty Shades of Grey (Original Motion Picture Soundtrack)";2015;1
+268;"Beyoncé";2013;1
+269;"The Lion King: The Gift";2019;1
+270;"Grammy Nominees";1992;138
+271;"Dreamboat Annie";1976;181
+272;"Blizzard of Ozz";1980;182
+273;"The Best of Van Morrison";1990;183
+274;"Kimono My House";1974;184
+275;"Madonna";1985;185
+276;"Skyfall";2012;10
+277;"25";2015;10
+278;"19";2008;10
+279;"Eyes Open";2006;186
+280;"Final Straw";2003;186
+281;"Destiny Fulfilled";2004;187
+282;"The Writing's On The Wall";1999;187
+283;"Survivor";2001;187
+284;"B'Day Deluxe Edition";2007;1
+285;"Missy Elliott Presents: The Cookbook";2005;188
+286;"Reincarnation";2015;189
+287;"Carry On";2019;190
+288;"Look Up Child";2018;191
+289;"GUM";2020;192
+290;"Back from the Edge";2016;193
+291;"Memories";2019;53
+292;"Wildcard";2019;194
+293;"Singles";2018;195
+294;"The Kids Are Coming";2019;197
+295;"Suicide Squad: The Album";2016;198
+296;"Pray for the Wicked";2018;199
+297;"Blurryface";2015;198
+298;"Divinely Uninspired to a Hellish Extent";2019;200
+299;"No.6 Collaborations Project";2019;16
+300;"Collage EP";2016;201
+301;"Hollywood's Bleeding";2019;202
+302;"Happiness Begins";2019;48
+303;"Youngblood";2018;204
+304;"The Great Gatsby: Music from Baz Luhrmann's Film";2013;205
+305;"American Idiot";2004;206
+306;"Lover";2019;57
+307;"Walking on a Dream";2008;207
+308;"Fifty Shades of Grey";2015;209
+309;"Woodstock";2017;210
+310;"Camila";2018;211
+311;"Young Dumb & Broke";2017;212
+312;"Beautiful Trauma";2017;213
+313;"Lukas Graham";2015;195
+314;"Crazy Love";2010;214
+315;"Christmas";2011;214
+316;"To Be Loved";2013;214
+317;"Nobody But Me";2016;214
+318;"Love";2018;214
+319;"The Black Album";2003;161
+320;"Justified";2002;35
+321;"Under Construction";2002;188
+322;"The Temptations Sing Smokey";1965;117
+323;"Eat a Peach";1972;215
+324;"Electric Ladyland";1968;140
+325;"The Everly Brothers";1958;216
+326;"Tuesday Night Music Club";1993;217
+327;"With the Beatles";1963;149
+328;"Elvis' Golden Records";1958;25
+329;"All the Young Dudes";1972;218
+330;"Tom Petty and the Heartbreakers";1976;219
+331;"Rattle and Hum";1988;220
+332;"The Wall";1979;221
+333;"Green River";1969;222
+334;"Some Girls";1978;147
+335;"Who's Next";1971;223
+336;"Abraxas";1970;7
+337;"Elvis Presley";1956;25
+338;"Steppenwolf";1968;224
+339;"Blowin' Your Mind!";1967;183
+340;"Slowhand";1977;225
+341;"Abbey Road";1969;149
+342;"Dancing in the Street";1964;226
+343;"Arrival";1976;227
+344;"Aerosmith";1973;41
+345;"Ghost in the Machine";1981;129
+346;"Willy and the Poor Boys";1969;222
+347;"Pronounced LehNerd SkinNerd";1973;228
+348;"Sex Machine";1970;118
+349;"Smiley Smile";1967;126
+350;"Great Balls of Fire";1957;229
+351;"Crimes of Passion";1980;230
+352;"Out of Our Heads";1965;147
+353;"In the Groove";1968;111
+354;"Meet the Beatles!";1964;149
+355;"Closer to Home";1970;231
+356;"1984";1983;232
+357;"Killing Me Softly";1973;233
+358;"Hip Hop Is Dead";2006;234
+359;"Illmatic";1994;234
+360;"Illmatic: The Remixes";1998;234
+361;"It Was Written";1996;234
+362;"Street Dreams";1996;234
+363;"Van Morrison";1967;183
+364;"Moondance";1970;183
+365;"Astral Weeks";1968;183
+366;"The Fame Monster";2009;88
+367;"Anthology";1986;235
+368;"Rapture";1986;235
+369;"Giving You the Best That I Got";1988;235
+370;"Compositions";1990;235
+371;"The Destiny's Child Story";2004;187
+372;"The Collection";2006;236
+373;"The Doors";1967;139
+374;"Strange Days";1967;139
+375;"The Soft Parade";1969;139
+376;"Morrison Hotel";1970;139
+377;"Waiting for the Sun";1968;139
+378;"An American Prayer";1978;139
+379;"Rough Stuff";2007;237
+380;"Blues & Soul";2010;238
+381;"Live at the Greek";2011;239
+382;"The Complete Collection";2005;144
+383;"Fire Emblem Fates";2016;268
+384;"Pokemon Ruby/Sapphire";2002;269
+385;"Xenoblade Chronicles X";2015;270
+386;"The Last Story";2012;271
+387;"Xenoblade Chronicles 2";2017;268
+388;"Persona 3";2006;272
+389;"Xenoblade Chronicles";2010;268
+390;"Persona 4";2008;272
+391;"Chrono Cross";1999;268
+392;"Final Fantasy XIII";2009;273
+393;"Procol Harum";1967;274
+394;"Aqualung";1971;275
+395;"Breakfast in America";1979;276
+396;"Deep Purple in Rock";1970;277
+397;"Agent Provocateur";1984;236
+398;"The Original Soundtrack";1975;278
+399;"Face Value";1981;279
+400;"Physical Graffiti";1975;20
+401;"Layla and Other Assorted Love Songs";1970;280
+402;"Brothers in Arms";1985;164
+403;"Boston";1976;281
+404;"My Generation";1965;223
+405;"Metallica";1991;282
+406;"Paranoid";1970;283
+407;"The Number of the Beast";1982;284
+408;"Machine Head";1972;277
+409;"The Final Countdown";1986;285
+410;"Piece of Mind";1983;284
+411;"Back in Black";1980;286
+412;"Love Me Tender";1956;25
+413;"Ain't Misbehavin";1955;287
+414;"The Best of Fats Domino";1962;290
+415;"The Best of Chuck Berry";1958;291
+416;"Dookie";1994;206
+417;"Insomniac";1995;206
+418;"Nimrod";1997;206
+419;"Warning";2000;206
+420;"21st Century Breakdown";2009;206
+421;"Revolution Radio";2016;206
+422;"Father Of All…";2020;206
+423;"21 Guns";2008;206
+424;"Kerplunk";1992;206
+425;"Let It Be";1970;149
+426;"Let's Talk About Love";1997;293
+427;"(What's the Story) Morning Glory?";1995;294
+428;"The Best of Skeeter Davis";1963;295
+429;"Love Is A Battlefield";1983;230
+430;"The Look Of Love";1967;296
+431;"Unplugged";1994;90
+432;"Fleetwood Mac";1975;84
+433;"Second Helping";1974;228
+434;"Rufus";1983;298
+435;"Various Positions";1984;26
+436;"Katrina & The Waves";1985;133
+437;"Building The Perfect Beast";1984;299
+438;"Divide";2017;16
+439;"Madman Across The Water";1971;300
+440;"Wish You Were Here";1975;221
+441;"Dire Straits";1978;164
+442;"Goats Head Soup";1973;147
+443;"Imagine";1971;301
+444;"All Things Must Pass";1970;302
+445;"Help!";1965;149
+446;"American Pie";1971;304
+447;"Highway 61 Revisited";1965;248
+448;"John Wesley Harding";1968;248
+449;"Out of Time";1991;305
+450;"Natty Dread";1974;306
+451;"The Singles: 19691973";1973;307
+452;"We Are the World";1985;308
+453;"The Woman in Red";1984;92
+454;"The Singles Collection";1986;129
+455;"Life Changes";2017;309
+456;"Center Point Road";2019;309
+457;"Tangled Up";2015;309
+458;"Lost In Your Eyes";1988;310
+459;"Heaven On Earth";1987;311
+460;"Whenever You Need Somebody";1987;313
+461;"Dirty Dancing";1987;314
+462;"Footloose";1984;315
+463;"Back To The Future";1985;317
+464;"The Hit Album";1986;318
+465;"Into The Light";1986;319
+466;"Top Gun";1986;320
+467;"Parade";1986;321
+468;"True Blue";1986;185
+469;"Like A Prayer";1989;322
+470;"Private Dancer";1984;323
+471;"Sweet Dreams (Are Made Of This)";1983;325
+472;"Rocky IV";1985;118
+473;"Geri Halliwell";2001;326
+474;"Faster Than The Speed Of Night";1983;324
+475;"Rhino HiFive: Men Without Hats";1983;328
+476;"Open Up And Say...Ahh!";1988;329
+477;"Look Sharp!";1988;330
+478;"The Breakfast Club";1985;331
+479;"Youthquake";1985;332
+480;"The Raw & The Cooked";1988;333
+481;"Beverly Hills Cop";1984;334
+482;"The Best of Bill Withers";1971;79
+483;"The Commodores";1977;335
+484;"Crazy";1992;336
+485;"Automatic for the People";1992;305
+486;"Seal";1994;336
+487;"The Temptations";1964;117
+488;"Ain't Nobody";1983;298
+489;"Random Access Memories";2013;85
+490;"DooWops & Hooligans";2010;9
+491;"H2O";1982;337
+492;"Moves Like Jagger";2011;53
+493;"Achtung Baby";1991;220
+494;"NonStop Erotic Cabaret";1981;338
+495;"The Marshall Mathers LP";2000;54
+496;"The Journey";2002;339
+497;"The Book of Secrets";1997;339
+498;"The Mask and Mirror";1994;339
+499;"A Midwinter Night's Dream";2008;339
+500;"Live in Paris and Toronto";1999;339
+501;"An Ancient Muse";2006;339
+502;"A Matter Of Life And Death";2006;284
+503;"Virtual XI";1998;284
+504;"Brave New World";2000;284
+505;"Dance Of Death";2003;284
+506;"Back To Basics";2006;340
+507;"Christina Aguilera";1999;340
+508;"Stripped";2002;340
+509;"9 to 5 and Odd Jobs";1980;70
+510;"The Greatest";2017;342
+511;"Ctrl";2017;342
+512;"4:44";2017;161
+513;"More Life";2017;52
+514;"The College Dropout";2004;343
+515;"Late Registration";2005;343
+516;"Graduation";2007;343
+517;"808s & Heartbreak";2008;343
+518;"One More Once";1998;344
+519;"My Spanish Heart";1976;344
+520;"Romantic Warrior";1976;345
+521;"Hymn of the Seventh Galaxy";1973;345
+522;"Light as a Feather";1972;345
+523;"The Leprechaun";1976;344
+524;"The Best of Return to Forever";1977;345
+525;"Children's Song";1979;344
+526;"The Best Of The Firehouse Rock";1994;346
+527;"The Best Of The Firehouse Pop";1994;158
+528;"8 Mile OST";2002;54
+529;"Love. Angel. Music. Baby.";2004;364
+530;"Missy Elliott";2005;188
+531;"Nellyville";2002;365
+532;"Elephunk";2003;5
+533;"Gnarls Barkley";2006;297
+534;"Permission to Land";2003;366
+535;"The Best of Both Worlds";2002;28
+536;"The Beyoncé Experience";2007;1
+537;"Get Rich or Die Tryin'";2003;370
+538;"Confessions";2004;371
+539;"Some Nights";2012;373
+540;"One by One";2002;374
+541;"Can't Slow Down";1983;375
+542;"The Show";1995;376
+543;"Fire and Water";1970;353
+544;"Enema of the State";1999;377
+545;"American Woman";1970;378
+546;"Where Did Our Love Go";1964;379
+547;"Bad to the Bone";1982;380
+548;"Sticky Fingers";1971;147
+549;"Full Moon Fever";1989;381
+550;"The Gilded Palace of Sin";1968;382
+551;"Every 1's a Winner";1978;114
+552;"Doppelgänger";2005;383
+553;"Kamikaze";2018;54
+554;"Blow";2019;16
+555;"Temptation";1956;384
+556;"A Night in Tunisia";1959;385
+557;"The Essential Billie Holiday";1935;94
+558;"Kind of Blue";1959;386
+559;"God Bless the Child";1941;94
+560;"What a Wonderful World";1967;387
+561;"Mack the Knife";1959;387
+562;"The Essential Louis Armstrong";1929;387
+563;"Hello Dolly";1964;387
+564;"What a Difference a Day Made";1959;388
+565;"Unforgettable";1951;389
+566;"Mona Lisa";1950;389
+567;"Smile";1954;389
+568;"Nature Boy";1948;389
+569;"Route 66";1946;389
+570;"When I Fall in Love";1957;389
+571;"Sweet Lorraine";1956;389
+572;"Smoke Gets in Your Eyes";1933;390
+573;"The Great Pretender";1955;390
+574;"Only You";1955;390
+575;"My Prayer";1956;390
+576;"Twilight Time";1958;390
+577;"Harbor Lights";1960;390
+578;"Stormy Weather";1943;391
+579;"Night and Day";1956;391
+580;"ATisket ATasket";1938;391
+581;"Blue Skies";1956;391
+582;"It Don't Mean a Thing";1956;391
+583;"My Funny Valentine";1956;391
+584;"Cheek to Cheek";1956;391
+585;"Cry Me a River";1955;392
+586;"Fly Me to the Moon";1954;393
+587;"The Last of Us Part II";2020;78
+588;"The Elder Scrolls V: Skyrim";2011;394
+589;"Red Dead Redemption";2010;395
+590;"Uncharted 4: A Thief's End";2016;396
+591;"Mass Effect 3";2012;397
+592;"Halo 3";2007;398
+593;"BioShock";2007;399
+594;"Portal 2";2011;400
+595;"Journey";2012;401
+596;"Ori and the Blind Forest";2015;402
+597;"Dark Souls";2011;403
+598;"God of War";2005;404
+599;"Assassin's Creed II";2009;405
+600;"The Legend of Zelda: Breath of the Wild";2017;406
+601;"The Witcher 3: Wild Hunt";2015;407
+602;"Final Fantasy XV";2016;408
+603;"Persona 5";2016;272
+604;"NieR: Automata";2017;409
+605;"Metal Gear Solid V: The Phantom Pain";2015;410
+606;"Metal Gear Solid 3: Snake Eater";2004;411
+607;"The Last Guardian";2016;412
+608;"Doom";2016;413
+609;"HalfLife 2";2004;414
+610;"Resident Evil 4";2005;415
+611;"The Elder Scrolls IV: Oblivion";2006;394
+612;"Kingdom Hearts";2002;408
+613;"Shadow of the Colossus";2005;416
+614;"Fez";2012;417
+615;"Final Fantasy VII";1997;271
+616;"Grand Theft Auto V";2013;418
+617;"The Legend of Zelda: Ocarina of Time";1998;419
+618;"Batman: Arkham City";2011;420
+619;"Diablo III";2012;421
+620;"Street Fighter II";1991;408
+621;"Halo: Combat Evolved";2001;398
+622;"Super Mario Bros.";1985;419
+623;"The Legend of Zelda: A Link to the Past";1991;419
+624;"Dragon Age: Inquisition";2014;422
+625;"Bloodborne";2015;423
+626;"Clannad";1983;424
+627;"Wasting Light";2011;374
+628;"The Singles";1992;374
+629;"The Colour and the Shape";1997;374
+630;"The Fighting Temptations";2003;1
+631;"A Salty Dog";1969;274
+632;"Are You Experienced";1967;140
+633;"Blood on the Tracks";1975;248
+634;"Pat Garrett & Billy the Kid";1973;248
+635;"The Animals";1964;425
+636;"Cross Road Blues";1936;245
+637;"I Put a Spell on You";1965;254
+638;"The Genius of Ray Charles";1960;116
+639;"TBone Blues";1947;264
+640;"Completely Well";1969;242
+641;"Time Out";1959;426
+642;"Maiden Voyage";1965;427
+643;"The Sound of Music";1959;97
+644;"Porgy and Bess";1935;386
+645;"Les Feuilles Mortes";1947;386
+646;"The Best of Duke Ellington";1941;428
+647;"Jazz Samba";1962;429
+648;"Getz/Gilberto";1963;429
+649;"The Voice of Frank Sinatra";1946;393
+650;"The Best of Bobby Darin";1959;430
+651;"In the Mood";1939;431
+652;"Breakfast at Tiffany's";1961;432
+653;"Strangers in the Night";1966;393
+654;"Mania";2018;433
+655;"The Middle";2018;196
+656;"I Miss You";2018;89
+657;"Happier";2018;203
+658;"Beerbongs & Bentleys";2018;202
+659;"Shawn Mendes";2018;434
+660;"Dreamgirls (Original Motion Picture Soundtrack)";2006;1
+661;"The Cure";2008;125
+662;"The Best Of Procol Harum";1967;274
+663;"The Best Of Santana";1998;7
+664;"Leftoverture";1976;435
+665;"Aerosmith's Greatest Hits";1980;41
+666;"Pyromania";1983;436
+667;"Eliminator";1983;352
+668;"Get The Knack";1979;356
+669;"Use Your Illusion I";1991;12
+670;"90125";1983;437
+671;"Hysteria";1987;436
+672;"Tattoo You";1981;147
+673;"The Joker";1973;438
+674;"The Razors Edge";1990;286
+675;"Living Things";2012;86
+676;"Reanimation";2002;86
+677;"In The Midnight Hour";1965;117
+678;"Brothers and Sisters";1973;215
+679;"Always On My Mind";1982;439
+680;"A Hard Day's Night";1964;149
+681;"Electric Warrior";1971;440
+682;"Before The Beginning";1968;225
+683;"Blowin' Your Mind";1967;183
+684;"What";1968;441
+685;"Rubber Soul";1965;149
+686;"Faith";1987;442
+687;"Happy Together";1967;443
+688;"The Freewheelin' Bob Dylan";1963;248
+689;"The Times They Are AChangin'";1964;248
+690;"Bringing It All Back Home";1965;248
+691;"Tidal";1996;444
+692;"The London Sessions";1931;387
+693;"Ray of Light";1998;185
+694;"Departure";1980;11
+695;"At Last!";1960;445
+696;"Mack Daddy";1992;446
+697;"All That You Can't Leave Behind";2000;220
+698;"Born in the U.S.A.";1984;144
+699;"All Eyez on Me";1996;447
+700;"At Folsom Prison";1968;448
+701;"No Fences";1990;449
+702;"American Patriot";1984;450
+703;"The Best of Anita Baker";1986;235
+704;"The Best Of Peter Green's Fleetwood Mac";1968;84
+705;"The Dark Side Of The Moon";1973;221
+706;"Blind Faith";1969;451
+707;"Point Of Know Return";1977;435
+708;"Hey Joe";1966;303
+709;"Beatles For Sale";1964;149
+710;"Night Moves";1976;452
+711;"Led Zeppelin II";1969;20
+712;"BachmanTurner Overdrive II";1973;349
+713;"Music From Big Pink";1968;453
+714;"Alegria";2008;454
+715;"Vignette";2016;455
+716;"Desperado";1973;19
+717;"Do You Believe in Magic";1965;456
+718;"The Genius Hits the Road";1960;116
+719;"Gimme Some Lovin'";1966;457
+720;"The Greatest Hits";1957;229
+721;"Honky Tonk Women";1969;147
+722;"The Four Tops' Second Album";1965;459
+723;"The Soul Album";1966;460
+724;"Bayou Country";1969;222
+725;"Fearless";2008;57
