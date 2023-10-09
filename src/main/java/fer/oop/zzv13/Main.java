@@ -1,7 +1,7 @@
 package fer.oop.zzv13;
 
-import jxl.Workbook;
-import jxl.read.biff.BiffException;
+/*import jxl.Workbook;
+import jxl.read.biff.BiffException;*/
 
 import java.io.*;
 import java.net.URL;
@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 import java.util.zip.ZipFile;
 
 public class Main {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         File file = new File("src/main/java/fer/oop/zzv13/ZUP_21.zip");
         try (BufferedInputStream is = new BufferedInputStream(new URL("https://gitlab.tel.fer.hr/ZUP_21.zip").openStream());
              BufferedOutputStream os = new BufferedOutputStream(new FileOutputStream(file))) {
@@ -89,5 +89,5 @@ public class Main {
                 .stream()
                 .sorted(Comparator.comparing(Entry<String, Integer>::getValue).reversed())
                 .toList();
-    }
+    }*/
 }

@@ -1,14 +1,14 @@
 package fer.oop.zzv13;
 
-import jxl.Sheet;
-import jxl.Workbook;
+/*import jxl.Sheet;
+import jxl.Workbook;*/
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class PollingResults {
-    private Map<PollingStation, Map<String, Integer>> mayorResults, assemblyResults;
+    /*private Map<PollingStation, Map<String, Integer>> mayorResults, assemblyResults;
 
     public PollingResults(Workbook workbook) {
         this.mayorResults = fillResults(workbook.getSheet(1));
@@ -47,5 +47,5 @@ public class PollingResults {
             toReturn.put(ps, values);
         }
         return toReturn;
-    }
+    }*/
 }

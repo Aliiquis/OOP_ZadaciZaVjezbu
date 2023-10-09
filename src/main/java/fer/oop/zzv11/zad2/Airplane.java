@@ -33,6 +33,7 @@ public class Airplane {
         return sum;
     }
 
+    @SafeVarargs
     private void flyAround(Pair<Double, Double>... airportsCoord) {
         final class Distance {
             private double distance;
